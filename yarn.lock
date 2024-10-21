@@ -5257,7 +5257,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openzeppelin/contracts-upgradeable@npm:^4.6.0, @openzeppelin/contracts-upgradeable@npm:^4.7.3, @openzeppelin/contracts-upgradeable@npm:^4.8.0, @openzeppelin/contracts-upgradeable@npm:^4.8.3":
+"@openzeppelin/contracts-upgradeable@npm:4.9.6, @openzeppelin/contracts-upgradeable@npm:^4.6.0, @openzeppelin/contracts-upgradeable@npm:^4.7.3, @openzeppelin/contracts-upgradeable@npm:^4.8.0, @openzeppelin/contracts-upgradeable@npm:^4.8.3":
   version: 4.9.6
   resolution: "@openzeppelin/contracts-upgradeable@npm:4.9.6"
   checksum: 481075e7222cab025ae55304263fca69a2d04305521957bc16d2aece9fa2b86b6914711724822493e3d04df7e793469cd0bcb1e09f0ddd10cb4e360ac7eed12a
@@ -5292,7 +5292,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openzeppelin/contracts@npm:^4.3.3, @openzeppelin/contracts@npm:^4.4.1, @openzeppelin/contracts@npm:^4.6.0, @openzeppelin/contracts@npm:^4.8.3":
+"@openzeppelin/contracts@npm:4.9.6, @openzeppelin/contracts@npm:^4.3.3, @openzeppelin/contracts@npm:^4.4.1, @openzeppelin/contracts@npm:^4.6.0, @openzeppelin/contracts@npm:^4.8.3":
   version: 4.9.6
   resolution: "@openzeppelin/contracts@npm:4.9.6"
   checksum: 274b6e968268294f12d5ca4f0278f6e6357792c8bb4d76664f83dbdc325f780541538a127e6a6e97e4f018088b42f65952014dec9c745c0fa25081f43ef9c4bf
@@ -7195,8 +7195,8 @@ __metadata:
     "@nomicfoundation/hardhat-toolbox": ^2.0.0
     "@nomiclabs/hardhat-ethers": ^2.0.0
     "@nomiclabs/hardhat-etherscan": ^3.0.3
-    "@openzeppelin/contracts": 4.9.3
-    "@openzeppelin/contracts-upgradeable": 4.9.3
+    "@openzeppelin/contracts": 4.9.6
+    "@openzeppelin/contracts-upgradeable": 4.9.6
     "@typechain/ethers-v5": ^10.1.0
     "@typechain/hardhat": ^6.1.2
     "@types/chai": ^4.3.11
@@ -7261,7 +7261,31 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@venusprotocol/keeper-bots@1.0.0-dev.5, @venusprotocol/keeper-bots@workspace:packages/keeper-bots":
+"@venusprotocol/keeper-bots@npm:1.0.0-dev.5":
+  version: 1.0.0-dev.5
+  resolution: "@venusprotocol/keeper-bots@npm:1.0.0-dev.5"
+  dependencies:
+    "@graphprotocol/client-cli": 3.0.0
+    "@pancakeswap/sdk": ^5.8.8
+    "@pancakeswap/smart-router": ^6.0.17
+    "@pancakeswap/v3-core": ^1.0.2
+    "@uniswap/sdk": ^3.0.3
+    "@uniswap/sdk-core": ^5.3.1
+    "@uniswap/smart-order-router": ^3.36.0
+    "@venusprotocol/keeper-bot-contracts": 1.2.0-dev.4
+    "@venusprotocol/oracle": ^2.0.0
+    "@wagmi/cli": ^2.0.4
+    abitype: 0.10.0
+    graphql: ^16.8.1
+    hardhat: ^2.19.5
+    jsbi: ^3.2.5
+    urql: ^3.0.3
+    viem: ^2.7.1
+  checksum: 816df33048ea415981bec88aada62b876f73c67626932c607bc1d0fae7e1417491cdb533f74399a990cf7a3dfa50a1a7811169e111ac79ec7310d21ee6edb291
+  languageName: node
+  linkType: hard
+
+"@venusprotocol/keeper-bots@workspace:packages/keeper-bots":
   version: 0.0.0-use.local
   resolution: "@venusprotocol/keeper-bots@workspace:packages/keeper-bots"
   dependencies:
@@ -10648,9 +10672,9 @@ __metadata:
   linkType: hard
 
 "dset@npm:^3.1.1, dset@npm:^3.1.2":
-  version: 3.1.3
-  resolution: "dset@npm:3.1.3"
-  checksum: 5db964a36c60c51aa3f7088bfe1dc5c0eedd9a6ef3b216935bb70ef4a7b8fc40fd2f9bb16b9a4692c9c9772cea60cfefb108d2d09fbd53c85ea8f6cd54502d6a
+  version: 3.1.4
+  resolution: "dset@npm:3.1.4"
+  checksum: 9a7677e9ffd3c13ad850f7cf367aa94b39984006510e84c3c09b7b88bba0a5b3b7196d85a99d0c4cae4e47d67bdeca43dc1834a41d80f31bcdc86dd26121ecec
   languageName: node
   linkType: hard
 
@@ -10713,7 +10737,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"elliptic@npm:^6.5.2, elliptic@npm:^6.5.4":
+"elliptic@npm:^6.5.2, elliptic@npm:^6.5.7":
   version: 6.5.7
   resolution: "elliptic@npm:6.5.7"
   dependencies:
@@ -17076,6 +17100,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"node-addon-api@npm:^5.0.0":
+  version: 5.1.0
+  resolution: "node-addon-api@npm:5.1.0"
+  dependencies:
+    node-gyp: latest
+  checksum: 2508bd2d2981945406243a7bd31362fc7af8b70b8b4d65f869c61731800058fb818cc2fd36c8eac714ddd0e568cc85becf5e165cebbdf7b5024d5151bbc75ea1
+  languageName: node
+  linkType: hard
+
 "node-cache@npm:^5.1.2":
   version: 5.1.2
   resolution: "node-cache@npm:5.1.2"
@@ -19694,14 +19727,14 @@ __metadata:
   linkType: hard
 
 "secp256k1@npm:^4.0.1":
-  version: 4.0.3
-  resolution: "secp256k1@npm:4.0.3"
+  version: 4.0.4
+  resolution: "secp256k1@npm:4.0.4"
   dependencies:
-    elliptic: ^6.5.4
-    node-addon-api: ^2.0.0
+    elliptic: ^6.5.7
+    node-addon-api: ^5.0.0
     node-gyp: latest
     node-gyp-build: ^4.2.0
-  checksum: 21e219adc0024fbd75021001358780a3cc6ac21273c3fcaef46943af73969729709b03f1df7c012a0baab0830fb9a06ccc6b42f8d50050c665cb98078eab477b
+  checksum: 9314ddcd27506c5f8d9b21a2c131c62464762f597b82fe48ba89b50149ec95cd566d6ad2d4a922553dd0a8b4b14c1ccd83283f487229a941b6c7c02361ef5177
   languageName: node
   linkType: hard
 
