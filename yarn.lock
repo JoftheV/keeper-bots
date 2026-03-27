@@ -7261,7 +7261,31 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@venusprotocol/keeper-bots@1.0.0-dev.5, @venusprotocol/keeper-bots@workspace:packages/keeper-bots":
+"@venusprotocol/keeper-bots@npm:1.0.0-dev.5":
+  version: 1.0.0-dev.5
+  resolution: "@venusprotocol/keeper-bots@npm:1.0.0-dev.5"
+  dependencies:
+    "@graphprotocol/client-cli": 3.0.0
+    "@pancakeswap/sdk": ^5.8.8
+    "@pancakeswap/smart-router": ^6.0.17
+    "@pancakeswap/v3-core": ^1.0.2
+    "@uniswap/sdk": ^3.0.3
+    "@uniswap/sdk-core": ^5.3.1
+    "@uniswap/smart-order-router": ^3.36.0
+    "@venusprotocol/keeper-bot-contracts": 1.2.0-dev.4
+    "@venusprotocol/oracle": ^2.0.0
+    "@wagmi/cli": ^2.0.4
+    abitype: 0.10.0
+    graphql: ^16.8.1
+    hardhat: ^2.19.5
+    jsbi: ^3.2.5
+    urql: ^3.0.3
+    viem: ^2.7.1
+  checksum: 816df33048ea415981bec88aada62b876f73c67626932c607bc1d0fae7e1417491cdb533f74399a990cf7a3dfa50a1a7811169e111ac79ec7310d21ee6edb291
+  languageName: node
+  linkType: hard
+
+"@venusprotocol/keeper-bots@workspace:packages/keeper-bots":
   version: 0.0.0-use.local
   resolution: "@venusprotocol/keeper-bots@workspace:packages/keeper-bots"
   dependencies:
@@ -13360,8 +13384,8 @@ __metadata:
   linkType: hard
 
 "handlebars@npm:^4.0.1, handlebars@npm:^4.7.7":
-  version: 4.7.8
-  resolution: "handlebars@npm:4.7.8"
+  version: 4.7.9
+  resolution: "handlebars@npm:4.7.9"
   dependencies:
     minimist: ^1.2.5
     neo-async: ^2.6.2
@@ -13373,7 +13397,7 @@ __metadata:
       optional: true
   bin:
     handlebars: bin/handlebars
-  checksum: 00e68bb5c183fd7b8b63322e6234b5ac8fbb960d712cb3f25587d559c2951d9642df83c04a1172c918c41bcfc81bfbd7a7718bbce93b893e0135fc99edea93ff
+  checksum: ac39070fc1c3c76a654e4b526383eaf1601976eaa474547b263915b4806977f083600e586ca923709baeed7c82a42640bcc9cc04c37a7efd3fb444f49b8347d6
   languageName: node
   linkType: hard
 
